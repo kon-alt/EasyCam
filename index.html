@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>EasyCam</title>
+
+<link href="assets/css/libs.css" rel="stylesheet"><link href="assets/css/app.css" rel="stylesheet"></head>
+
+<body>
+  <div class="wrapper">
+    <div class="first-screen">
+      <div class="container">
+        <header class="header" id="header">
+          <div class="logo">
+            <a href="/"><img src="assets/img/logo.png" alt="logo"></a>
+          </div>
+          <div class="toggle-menu">
+            <span class="toggle-menu__btn"></span>
+          </div>
+          <nav class="nav">
+            <span class="nav-close">
+              <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.93317 0C2.10996 0 2.27932 0.0711172 2.4031 0.197336L5.7628 3.62304C6.15553 4.02349 6.80074 4.02267 7.19246 3.62124L10.5289 0.202022C10.655 0.0728415 10.8278 0 11.0083 0C11.6004 0 11.9013 0.711723 11.4889 1.13644L8.14061 4.58459C7.76432 4.97211 7.76377 5.58842 8.13938 5.9766L11.8979 9.861C12.3104 10.2873 12.0083 11 11.4151 11C11.2351 11 11.0625 10.9277 10.9363 10.7994L7.19127 6.99419C6.7995 6.59611 6.1576 6.59611 5.76582 6.99419L2.0158 10.8045C1.89274 10.9296 1.72463 11 1.54919 11C0.97042 11 0.676328 10.3041 1.0797 9.88904L4.83916 6.0207C5.21501 5.63397 5.21651 5.01887 4.84254 4.63031L1.45892 1.11465C1.05648 0.6965 1.35282 0 1.93317 0Z" fill="#333333" />
+              </svg>
+            </span>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="readyOffers-page.html" class="nav__link">Готовые решения</a>
+              </li>
+              <li class="nav__item">
+                <a href="#tarifsAncor" class="nav__link">Тарифы</a>
+              </li>
+              <li class="nav__item">
+                <a href="news-page.html" class="nav__link">Новости</a>
+              </li>
+              <li class="nav__item">
+                <a href="#footer" class="nav__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="logIn">
+            <button class="logIn__btn" data-id="logIn">
+              Войти
+            </button>
+          </div>
+        </header>
+        <div class="slider-carousel">
+          <div class="slider-carousel__item owl-carousel">
+            <div class="slide" id="slide-1" >
+              <div class="slide__item">
+                <h1 class="slide__head">Облачное видеонаблюдение под ваши цели</h1>
+                <div class="slide__description">
+                  <span class="slide__span"></span>
+                  <div class="slide__textBloack">
+                    <p class="slide__text">
+                      Видео - контроль на любом устройстве в прямом эфире. С возможностью хранения записи вплоть до 7 дней
+                    </p>
+                    <a href="#footer" class="slide__btn">Оставить заявку</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide__item">
+                <div class="CCTV">
+                  <div class="CCTV-view">
+                    <img class="CCTV-view__imgView" src="assets/img/noutbook.png" alt="img">
+                    <div class="CCTV-view__item">
+                      <div class="CCTV-view__video-wrap">
+                        <video autoplay loop>
+                          <source src="assets/img/video.mp4">
+                        </video>
+                      </div>
+                      <div class="CCTV-view__video-wrap">
+                        <video autoplay loop>
+                          <source src="assets/img/video2.mp4">
+                        </video>
+                      </div>
+                      <div class="CCTV-view__video-wrap">
+                        <video autoplay loop>
+                          <source src="assets/img/video2.mp4">
+                        </video>
+                      </div>
+                      <div class="CCTV-view__video-wrap">
+                        <video autoplay loop>
+                          <source src="assets/img/video.mp4">
+                        </video>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide" id="slide-2">
+              <div class="slide__item slide__item-width-55">
+                <h2 class="slide__head">Прост в использовании а трансляция всегда под рукой</h2>
+                <div class="slide__description">
+                  <span class="slide__span"></span>
+                  <div class="slide__textBloack">
+                    <p class="slide__text">
+                      Интуитивно понятный интерфейс. Зайдите в личный кабинет и смотри трансляции со всех камер
+                    </p>
+                    <a href="#footer" class="slide__btn">Оставить заявку</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide__item">
+                <div class="CCTV">
+                  <div class="CCTV-view">
+                    <img class="CCTV-view__imgView CCTV-view__imgView-smartphone" src="assets/img/phones.png" alt="img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" id="slide-3">
+              <div class="slide__item">
+                <h2 class="slide__head">Просмотр онлайн с любого устройства в любое время</h2>
+                <div class="slide__description">
+                  <span class="slide__span"></span>
+                  <div class="slide__textBloack">
+                    <p class="slide__text">
+                      Доступ из любого места и в любое время ко всем камерам видеонаблюдения в два щелчка.
+                    </p>
+                    <a href="#footer" class="slide__btn">Оставить заявку</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide__item ">
+                <div class="CCTV">
+                  <div class="CCTV-view">
+                    <img class="CCTV-view__imgView  CCTV-view__imgView-w85" src="assets/img/allDevace.png" alt="img">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <section>
+      <div class="container">
+        <div class="services-wrapper">
+          <div class="services">
+            <div class="services__row">
+              <div class="services__col">
+                <h2 class="head-h2">Мы осуществляем следующие услуги</h2>
+              </div>
+              <div class="services__col">
+                <div class="services__description">
+                  <p class="services__text">Кроме этого техническая поддержка всегда проконсультирует Вас по любым вопросам,
+                    а также произведет удаленную диагностику вашей системы по первому запросы и в самые кротчайшие сроки
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services-cards">
+            <div class="services-cards__item">
+              <div class="card">
+                <div class="card__img">
+                  <img src="assets/img/service-img1.png" alt="img">
+                </div>
+                <div class="card__body">
+                  <h3 class="card__head">Монтаж</h3>
+                  <p class="card__text">Произведем монтаж камер видеонаблюдения у Вас дома, на работе, даче или просто во дворе </p>
+                </div>
+              </div>
+            </div>
+            <div class="services-cards__item">
+              <div class="card">
+                <div class="card__img">
+                  <img src="assets/img/service-img2.png" alt="img">
+                </div>
+                <div class="card__body">
+                  <h3 class="card__head">Обслуживание</h3>
+                  <p class="card__text">Если у Вас возникнут трудности мы дадим консультацию, а при необходимости приедем к вам на объект</p>
+                </div>
+              </div>
+            </div>
+            <div class="services-cards__item">
+              <div class="card">
+                <div class="card__img">
+                  <img src="assets/img/service-img1.png" alt="img">
+                </div>
+                <div class="card__body">
+                  <h3 class="card__head">Личный кабинет</h3>
+                  <p class="card__text">Смотрите трансляцию онлайн, а если не успели мы храним записи 7 дней, просто зайдите в архив</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="appBlock" style="background-image: url(assets/img/app-bg.png);">
+        <div class="container">
+          <div class="app">
+            <h2 class="app__head">Скачайте наше приложение в AppStore и Google Play</h2>
+            <ul class="app__list">
+              <li class="app__item" style="background-image: url(assets/img/checked.png);">
+                <p class="app__text">cмотрите онлайн-трансляцию с Ваших видеокамер</p>
+              </li>
+              <li class="app__item" style="background-image: url(assets/img/checked.png);">
+                <p class="app__text">надёжно храните архив в облаке от 7 дней и выше</p>
+              </li>
+              <li class="app__item" style="background-image: url(assets/img/checked.png);">
+                <p class="app__text">получите доступ к архиву в режиме онлайн</p>
+              </li>
+              <li class="app__item" style="background-image: url(assets/img/checked.png);">
+                <p class="app__text">сохраняйте архив на Ваши устройства</p>
+              </li>
+            </ul>
+            <div class="appBTNS">
+              <a href="https://play.google.com" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/google-play.png);"></a>
+              <a href="https://www.apple.com/ru/ios/app-store" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/appStore.png);"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class=" tariffsBlosk">
+        <div class="container">
+          <div class="tariffs" id="tarifsAncor">
+            <h2 class="tariffs__head">Выберите тариф </h2>
+            <div class="tariffs__row">
+              <div class="tariffs__col">
+                <div class="card">
+                  <div class="card__body">
+                    <h3 class="card__head">Стандарт</h3>
+                    <p class="card__subhead">
+                      350 ₽
+                      <span class="card__subhead-span">/ месяц</span>
+                    </p>
+                    <p class="card__text">Запись архива и хранение 7 дней. Подключение 1 камеры. Онлайн доступ к камере </p>
+                    <a href="#footer" class="card__btn" >Оставить заявку</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tariffs__col">
+                <div class="card card-active" id="card-active">
+                  <div class="card__body">
+                    <h3 class="card__head">Стандарт</h3>
+                    <p class="card__subhead">
+                      650 ₽
+                      <span class="card__subhead-span">/ месяц</span>
+                    </p>
+                    <p class="card__text">Запись архива и хранение в 30 дней. Подключение 1 камеры. Онлайн доступ к камере</p>
+                    <a href="#footer" class="card__btn" >Оставить заявку</a>
+                  </div>
+                </div>
+              </div>
+              <div class="tariffs__col">
+                <div class="card">
+                  <div class="card__body">
+                    <h3 class="card__head">Бизнес</h3>
+                    <p class="card__subhead">
+                      950 ₽
+                      <span class="card__subhead-span">/ месяц</span>
+                    </p>
+                    <p class="card__text">Запись архива и хранение 60 дней. Подключение 1 камеры. Онлайн доступ к камере</p>
+                    <a href="#footer" class="card__btn" >Оставить заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="readyOffers" >
+          <h2 class="readyOffers__head readyOffers__head-w40">Готовые решения для подключения </h2>
+          <div class="readyOffers__row owl-carousel" id="readyOffers-slider">
+            <div class="readyOffers__col">
+              <div class="card">
+                <div class="card__img">
+                  <img src="assets/img/camera.png" alt="camera">
+                </div>
+                <div class="card__body">
+                  <span class="card__affiliation">Для дома</span>
+                  <h3 class="card__head">Цифровая IP камера для подключения в облачный сервис EasyCam. </h3>
+                  <ul class="card__list">
+                    <li class="card__item">Разрешение: 1920*1080@25fps</li>
+                    <li class="card__item">Объектив: 2.8mm lens </li>
+                    <li class="card__item">Гарантия : 1 год </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="readyOffers__col">
+              <div class="card">
+                <div class="card__img">
+                  <img src="assets/img/camera.png" alt="camera">
+                </div>
+                <div class="card__body">
+                  <span class="card__affiliation">Для бизнеса </span>
+                  <h3 class="card__head">Цифровая IP камера для подключения в облачный сервис EasyCam. </h3>
+                  <ul class="card__list">
+                    <li class="card__item">Разрешение: 1920*1080@25fps</li>
+                    <li class="card__item">Объектив: 2.8mm lens </li>
+                    <li class="card__item">Гарантия : 1 год </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="readyOffers__col">
+              <div class="card">
+                <div class="card__img">
+                  <img src="assets/img/camera.png" alt="camera">
+                </div>
+                <div class="card__body">
+                  <span class="card__affiliation">Для улицы</span>
+                  <h3 class="card__head">Цифровая IP камера для подключения в облачный сервис EasyCam. </h3>
+                  <ul class="card__list">
+                    <li class="card__item">Разрешение: 1920*1080@25fps</li>
+                    <li class="card__item">Объектив: 2.8mm lens </li>
+                    <li class="card__item">Гарантия : 1 год </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="go-catalog">
+            <a href="readyOffers-page.html" class="go-catalog__link">Перейти в каталог</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="news-conpany">
+        <div class="container">
+          <h2 class="news-conpany__head">Новости компании</h2>
+          <div class="news-accordion">
+            <div class="news-accordion__body news-accordion__body-active">
+              <span class="news-accordion__topLine"></span>
+              <div class="news-accordion__row">
+                <div class="news-accordion__col">
+                  <div class="news-accordion__btn toggle-accord">
+                    <button>Запуск мобильного приложения</button>
+                  </div>
+                  <div class="news-blockImg">
+                    <img src="assets/img/app-img.png" alt="">
+                    <img src="assets/img/app-img.png" alt="">
+                    <div class="appBTNS">
+                      <a href="https://play.google.com" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/google-play.png);"></a>
+                      <a href="https://www.apple.com/ru/ios/app-store" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/appStore.png);"></a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="news-accordion__col">
+                  <div class="news-accordion__data">
+                    <span class="news-accordion__data-span">07.02.20</span>
+                  </div>
+                  <p class="news-accordion__text">С сегоднешнего наш сервис стал еще удобнее благодаря приложениям для iOS и Android.</p>
+                  <p class="news-accordion__text"> Приложение актуально для действующих, зарегистрированых клиентов. Для подключение ваших камер, оставите заявку.
+                    Так же вы можете воспользоватся демо кабинетом, для оценки сервиса и приложений. Для этого просто свяжитесь с нами.</p>
+                  <p class="news-accordion__text"> <strong>Фунционал приложения: 1.</strong> Воспроизведение назад в режиме архива. 2. Быстрая перемотка в +/- 10 сек. по двойному нажатию по экрану</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-accordion">
+            <div class="news-accordion__body">
+              <span class="news-accordion__topLine"></span>
+              <div class="news-accordion__row">
+                <div class="news-accordion__col">
+                  <div class="news-accordion__btn toggle-accord">
+                    <button>Запуск мобильного приложения</button>
+                  </div>
+                  <div class="news-blockImg">
+                    <img src="assets/img/app-img.png" alt="">
+                    <img src="assets/img/app-img.png" alt="">
+                    <div class="appBTNS">
+                      <a href="https://play.google.com" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/google-play.png);"></a>
+                      <a href="https://www.apple.com/ru/ios/app-store" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/appStore.png);"></a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="news-accordion__col">
+                  <div class="news-accordion__data">
+                    <span class="news-accordion__data-span">07.02.20</span>
+                  </div>
+                  <p class="news-accordion__text">С сегоднешнего наш сервис стал еще удобнее благодаря приложениям для iOS и Android.</p>
+                  <p class="news-accordion__text"> Приложение актуально для действующих, зарегистрированых клиентов. Для подключение ваших камер, оставите заявку.
+                    Так же вы можете воспользоватся демо кабинетом, для оценки сервиса и приложений. Для этого просто свяжитесь с нами.</p>
+                  <p class="news-accordion__text"> <strong>Фунционал приложения: 1.</strong> Воспроизведение назад в режиме архива. 2. Быстрая перемотка в +/- 10 сек. по двойному нажатию по экрану</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-accordion">
+            <div class="news-accordion__body">
+              <span class="news-accordion__topLine"></span>
+              <div class="news-accordion__row">
+                <div class="news-accordion__col">
+                  <div class="news-accordion__btn toggle-accord">
+                    <button>Запуск мобильного приложения</button>
+                  </div>
+                  <div class="news-blockImg">
+                    <img src="assets/img/app-img.png" alt="">
+                    <img src="assets/img/app-img.png" alt="">
+                    <div class="appBTNS">
+                      <a href="https://play.google.com" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/google-play.png);"></a>
+                      <a href="https://www.apple.com/ru/ios/app-store" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/appStore.png);"></a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="news-accordion__col">
+                  <div class="news-accordion__data">
+                    <span class="news-accordion__data-span">07.02.20</span>
+                  </div>
+                  <p class="news-accordion__text">С сегоднешнего наш сервис стал еще удобнее благодаря приложениям для iOS и Android.</p>
+                  <p class="news-accordion__text"> Приложение актуально для действующих, зарегистрированых клиентов. Для подключение ваших камер, оставите заявку.
+                    Так же вы можете воспользоватся демо кабинетом, для оценки сервиса и приложений. Для этого просто свяжитесь с нами.</p>
+                  <p class="news-accordion__text"> <strong>Фунционал приложения: 1.</strong> Воспроизведение назад в режиме архива. 2. Быстрая перемотка в +/- 10 сек. по двойному нажатию по экрану</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="go-catalog">
+            <a href="news-page.html" class="go-catalog__link">Посмотреть всё</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <div class="scrollTop">
+      <a href="#header" class="scrollTop__btn"></a>
+    </div>
+  </div> <!-- end main wrapper -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__col">
+          <div class="address">
+            <p class="address__head">Контакты</p>
+            <a href="tel:" class="address__linkTel">+7 (473) 257-31-91</a>
+            <a href="assets/img/logo.png" download class="address__upload">Скачать реквизиты</a>
+            <div class="appBTNS">
+              <a href="https://play.google.com" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/google-play.png);"></a>
+              <a href="https://www.apple.com/ru/ios/app-store" target="_blank" class="appBTNS__btn" style="background-image: url(assets/img/appStore.png);"></a>
+            </div>
+            <p class="copyright">Copyright © 2013 - 2020 EASYCAM - облачное видеонаблюдение</p>
+          </div>
+        </div>
+        <div class="footer__col">
+          <div class="bottom-menu">
+            <p class="bottom-menu__head">Полезные ссылки</p>
+            <ul class="bottom-menu__list">
+              <li class="bottom-menu__item">
+                <a href="/" class="bottom-menu__link">На главную</a>
+              </li>
+              <li class="bottom-menu__item">
+                <a href="#" class="bottom-menu__link">Наши услуги</a>
+              </li>
+              <li class="bottom-menu__item">
+                <a href="#tarifsAncor" class="bottom-menu__link">Тарифы</a>
+              </li>
+              <li class="bottom-menu__item">
+                <a href="readyOffers-page.html" class="bottom-menu__link">Готовые решения</a>
+              </li>
+              <li class="bottom-menu__item">
+                <a href="news-page.html" class="bottom-menu__link">Новости компании</a>
+              </li>
+              <li class="bottom-menu__item">
+                <a href="personal-page.html" class="bottom-menu__link">Личный кабинет</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__col">
+          <p class="footer__head-form">Оставьте заявку на подключение</p>
+          <form class="form" action="#" method="POST">
+            <input class="form__input" type="tel" name="tel" id="tel" placeholder="Ваш телефон">
+            <input class="form__input" type="text" name="name" id="name" placeholder="Ваше имя">
+            <input class="form__btn" type="submit" value="Оставить заявку">
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="wrap-modal hide-modal">
+    <div class="modal logIn" id="logIn">
+      <span class="close-modal">
+        <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.93317 0C2.10996 0 2.27932 0.0711172 2.4031 0.197336L5.7628 3.62304C6.15553 4.02349 6.80074 4.02267 7.19246 3.62124L10.5289 0.202022C10.655 0.0728415 10.8278 0 11.0083 0C11.6004 0 11.9013 0.711723 11.4889 1.13644L8.14061 4.58459C7.76432 4.97211 7.76377 5.58842 8.13938 5.9766L11.8979 9.861C12.3104 10.2873 12.0083 11 11.4151 11C11.2351 11 11.0625 10.9277 10.9363 10.7994L7.19127 6.99419C6.7995 6.59611 6.1576 6.59611 5.76582 6.99419L2.0158 10.8045C1.89274 10.9296 1.72463 11 1.54919 11C0.97042 11 0.676328 10.3041 1.0797 9.88904L4.83916 6.0207C5.21501 5.63397 5.21651 5.01887 4.84254 4.63031L1.45892 1.11465C1.05648 0.6965 1.35282 0 1.93317 0Z" fill="#333333" />
+        </svg>
+      </span>
+      <form class="form">
+        <p style="text-align: center;">В демо версии можно войти без пароля</p>
+        <input class="form__input" type="name" name="name" id="login-name" placeholder="Имя пользователя">
+        <input class="form__input" type="password" name="password" id="password" placeholder="Пароль">
+        <a href="personal.html" class="form__btn" >Войти</a>
+      </form>
+    </div>
+  </div>
+<script type="text/javascript" src="assets/js/libs.js"></script><script type="text/javascript" src="assets/js/app.js"></script></body>
+
+</html>
